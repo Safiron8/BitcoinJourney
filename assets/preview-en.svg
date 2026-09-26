@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="tiles" width="7" height="7" patternUnits="userSpaceOnUse">
+      <rect x=".6" y=".6" width="5.8" height="5.8" fill="#d47b0a"/>
+    </pattern>
+    <pattern id="empty-tiles" width="7" height="7" patternUnits="userSpaceOnUse">
+      <rect x=".6" y=".6" width="5.8" height="5.8" fill="#6e5639"/>
+    </pattern>
+    <clipPath id="coin">
+      <text x="785" y="493" font-family="Arial, sans-serif" font-size="440" font-weight="700">₿</text>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#191817"/>
+  <rect x="34" y="34" width="1132" height="562" rx="30" fill="#242220" stroke="#3b3732" stroke-width="2"/>
+  <text x="95" y="226" fill="#f4efe8" font-family="Georgia, serif" font-size="73">Journey to <tspan fill="#d47b0a">₿</tspan>itcoin</text>
+  <text x="98" y="303" fill="#aaa097" font-family="Arial, sans-serif" font-size="29">Stay humble. Stack sats.</text>
+  <rect x="745" y="115" width="375" height="440" fill="url(#empty-tiles)" clip-path="url(#coin)"/>
+  <rect x="745" y="115" width="375" height="240" fill="url(#tiles)" clip-path="url(#coin)"/>
+  <rect x="97" y="503" width="14" height="14" fill="#d47b0a"/>
+  <text x="126" y="516" fill="#aaa097" font-family="Arial, sans-serif" font-size="18">1 tile = 10,000 sats</text>
+</svg>
