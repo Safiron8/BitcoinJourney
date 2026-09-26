@@ -2,6 +2,8 @@
 
 Jednoduchá statická stránka pro sledování bitcoinového cíle. Sečte zůstatky adres a zobrazí je jako bitcoinové logo z 10 000 políček. Nastav si cíl v BTC, každé políčko představuje jeho jednu desetitisícinu.
 
+Stránku si můžeš prohlédnout [zde](https://safiron8.github.io/BitcoinJourney/).
+
 [English](README.md)
 
 ## Jak to funguje

@@ -2,6 +2,8 @@
 
 A simple static page for tracking your Bitcoin goal. It adds up the balances of your addresses and displays them as a Bitcoin logo made up of 10,000 tiles. Set your target in BTC, and each tile represents one ten-thousandth of that goal.
 
+You can check out the page [here](https://safiron8.github.io/BitcoinJourney/).
+
 [Česky](README.cs.md)
 
 ## How it works
