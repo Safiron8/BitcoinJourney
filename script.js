@@ -1105,7 +1105,7 @@ $('address-form').addEventListener('submit', async (event) => {
             saveBalanceCache();
             $('address-input').value = '';
             renderAddresses();
-            loadBalance();
+            loadBalance({ animateCached: true });
         } else {
             addresses.pop();
             renderAddresses();
